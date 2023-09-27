@@ -1,0 +1,11 @@
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/bin/Debug/net7.0/BabySmurf
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/bin/Debug/net7.0/BabySmurf.dll
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/bin/Debug/net7.0/BabySmurf.pdb
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/obj/Debug/net7.0/BabySmurf.csproj.AssemblyReference.cache
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/obj/Debug/net7.0/BabySmurf.GeneratedMSBuildEditorConfig.editorconfig
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/obj/Debug/net7.0/BabySmurf.AssemblyInfoInputs.cache
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/obj/Debug/net7.0/BabySmurf.AssemblyInfo.cs
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/obj/Debug/net7.0/BabySmurf.csproj.CoreCompileInputs.cache
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/obj/Debug/net7.0/BabySmurf.dll
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/obj/Debug/net7.0/refint/BabySmurf.dll
+/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/obj/Debug/net7.0/BabySmurf.pdb

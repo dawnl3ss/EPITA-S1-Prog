@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "/home/alexandre.voisin/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/BabySmurf.csproj",
+      "projectName": "BabySmurf",
+      "projectPath": "/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/BabySmurf.csproj",
+      "packagesPath": "/home/alexandre.voisin/.nuget/packages/",
+      "outputPath": "/afs/cri.epita.fr/user/a/al/alexandre.voisin/u/Prog/epita-prepa-acdc-PROG-101-P-01-2028-alexandre.voisin/BabySmurf/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/alexandre.voisin/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/nix/store/s4dp4jbk25pcv8cjdkjclrdg2q96l5yh-dotnet-sdk-7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
