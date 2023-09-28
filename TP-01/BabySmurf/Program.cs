@@ -1,0 +1,1 @@
+Console.WriteLine("Random text :)");
