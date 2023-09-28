@@ -5538,11 +5538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-1\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-01\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-1\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-01\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\neptu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-1\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-01\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\neptu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5557,8 +5557,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-1\\BabySmurf\\BabySmurf.csproj": {
-              "projectPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-1\\BabySmurf\\BabySmurf.csproj"
+            "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-01\\BabySmurf\\BabySmurf.csproj": {
+              "projectPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-01\\BabySmurf\\BabySmurf.csproj"
             }
           }
         }

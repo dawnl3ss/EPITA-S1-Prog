@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-1\\BabySmurf\\BabySmurf.csproj",
+      "projectUniqueName": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-01\\BabySmurf\\BabySmurf.csproj",
       "projectName": "BabySmurf",
-      "projectPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-1\\BabySmurf\\BabySmurf.csproj",
+      "projectPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-01\\BabySmurf\\BabySmurf.csproj",
       "packagesPath": "C:\\Users\\neptu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-1\\BabySmurf\\obj\\",
+      "outputPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-01\\BabySmurf\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\neptu\\AppData\\Roaming\\NuGet\\NuGet.Config"
