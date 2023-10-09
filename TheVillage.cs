@@ -1,5 +1,29 @@
 ﻿class TheVillage
 {
+
+    private static string ComputeNaturals(int current, int n)
+    {
+        if (current > n)
+            return "";
+
+        string result = "";
+
+        if (current > 0)
+            result += " ";
+        if (current % 5 == 0)
+            result += "Smurfed!";
+        else
+            result += current.ToString();
+
+        return result + ComputeNaturals(current + 1, n);
+    }
+    public static string Naturals(int n)
+    {
+        if (n < 0)
+            throw new ArgumentException("Argument must be greater than or equal to 0");
+
+        return ComputeNaturals(0, n);
+    }
     
     public static (int, int) Euclidean(int a, int b)
     {
