@@ -124,9 +124,4 @@ public class Lessons
         return find;
     }
     
-    
-    public static void Main()
-    {
-        Console.WriteLine(SearchLetter("GARGAMEL", 'g'));
-    }
 }
