@@ -1,6 +1,7 @@
-﻿class TheVillage
-{
+﻿namespace SmurfRecursion;
 
+public class TheVillage
+{
     private static string ComputeNaturals(int current, int n)
     {
         if (current > n)
@@ -21,10 +22,10 @@
     {
         if (n < 0)
             throw new ArgumentException("Argument must be greater than or equal to 0");
-
         return ComputeNaturals(0, n);
     }
-    
+
+
     public static (int, int) Euclidean(int a, int b)
     {
         if (b == 0)
@@ -84,11 +85,6 @@
         return SumPrime(n - 1);
     }
 
-    
-    
-    
-    
-    
     private static string ComputeReverseString(string text, int n)
     {
         if (n == 0)
@@ -99,14 +95,5 @@
     public static string ReverseString(string s)
     {
         return ComputeReverseString(s, s.Length - 1);
-    }
-    
-    
-    
-    
-    
-    static void Main()
-    {
-        Console.WriteLine(ReverseString("123456789"));
     }
 }
