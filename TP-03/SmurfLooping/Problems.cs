@@ -2,5 +2,42 @@ namespace SmurfLooping;
 
 public class Problems
 {
-    
+    public static string Tree(char c, int n)
+    {
+        string tree = "";
+        int len = n;
+
+        for (int i = 1; i <= n*2; i+=2)
+        {
+            string line = "";
+
+            for (int j = 1; j <= i; j++)
+            {
+                line += c;
+            }
+
+
+            for (int j = 1; j <= len - 1; j++)
+            {
+                line = " " + line;
+            }
+
+            tree += line + "\n";
+            len--;
+        }
+
+        for (int i = 1; i <= 2; i++)
+        {
+            string line = "";
+            
+            for (int j = 1; j <= n - 2; j++)
+            {
+                line = " " + line;
+            }
+            tree += line + "***";
+            if (i != 2) tree += "\n";
+        }
+        
+        return tree;
+    }
 }
