@@ -34,10 +34,22 @@ public class Problems
             {
                 line = " " + line;
             }
-            tree += line + "***";
+
+            string chars = "";
+            
+            for (int j = 1; j <= 3; j++)
+            {
+                chars += c;
+            }
+            tree += line + chars;
             if (i != 2) tree += "\n";
         }
         
         return tree;
+    }
+
+    public static void Main()
+    {
+        Console.WriteLine(Tree('+', 5));
     }
 }
