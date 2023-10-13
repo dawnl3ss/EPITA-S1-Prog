@@ -47,9 +47,32 @@ public class Problems
         
         return tree;
     }
+    
+    public static string KingOfTheHill(string s)
+    {
+        int len = s.Length;
+        string sanitizedStr = "";
+        bool hasIncreased = false;
+        bool hasDecreased = false;
 
+        // Sanitized str by removing ' '
+        foreach (char chr in s)
+        {
+            if (chr != ' ')
+                sanitizedStr += chr;
+        }
+
+        for (int i = 1; i <= len; i++)
+        {
+            if (sanitizedStr[i] > sanitizedStr[i - 1])
+                return "non";
+        }
+
+        return sanitizedStr;
+    }
+ 
     public static void Main()
     {
-        Console.WriteLine(Tree('+', 5));
+        Console.WriteLine(KingOfTheHill("1 2 3 4 3 2 1"));
     }
 }

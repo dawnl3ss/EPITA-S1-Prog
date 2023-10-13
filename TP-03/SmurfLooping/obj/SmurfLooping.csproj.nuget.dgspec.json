@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\neptu\\OneDrive\\Bureau\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\SmurfLooping.csproj": {}
+    "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\SmurfLooping.csproj": {}
   },
   "projects": {
-    "C:\\Users\\neptu\\OneDrive\\Bureau\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\SmurfLooping.csproj": {
+    "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\SmurfLooping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\neptu\\OneDrive\\Bureau\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\SmurfLooping.csproj",
+        "projectUniqueName": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\SmurfLooping.csproj",
         "projectName": "SmurfLooping",
-        "projectPath": "C:\\Users\\neptu\\OneDrive\\Bureau\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\SmurfLooping.csproj",
+        "projectPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\SmurfLooping.csproj",
         "packagesPath": "C:\\Users\\neptu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\neptu\\OneDrive\\Bureau\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\obj\\",
+        "outputPath": "C:\\Users\\neptu\\Desktop\\Neptune\\Programming\\C#\\EPITA-S1-Prog\\TP-03\\SmurfLooping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\neptu\\AppData\\Roaming\\NuGet\\NuGet.Config"
