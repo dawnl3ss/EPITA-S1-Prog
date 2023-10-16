@@ -90,7 +90,7 @@ public class Problems
         return result;
     }
 
-    public static int AtoI(string s)
+    /*public static int AtoI(string s)
     {
         foreach (char chr in s)
         {
@@ -103,5 +103,5 @@ public class Problems
     public static void Main()
     {
         Console.WriteLine(Tree('*', -1));
-    }
+    }*/
 }
