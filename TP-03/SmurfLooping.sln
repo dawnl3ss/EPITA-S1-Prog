@@ -1,5 +1,4 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmurfLooping", "SmurfLooping\SmurfLooping.csproj", "{DE78ECB1-97F5-47D8-A3AF-2F2665DD0611}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E4F94D26-80D8-470A-BE4B-BC02B8297DD6}"
