@@ -109,9 +109,4 @@ public class Travel
 
         return true;
     }
-
-    public static void Main()
-    {
-        Console.WriteLine(GCD(733959515, 1963931452));
-    }
 }
