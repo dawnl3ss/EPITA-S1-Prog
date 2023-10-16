@@ -1,3 +1,5 @@
-.idea/
-obj/
 bin/
+obj/
+.idea/
+*~
+*.DotSettings.user

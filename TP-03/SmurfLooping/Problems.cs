@@ -191,11 +191,4 @@ public class Problems
 
        return "";
    }
-   
-   
-
-    public static void Main()
-    {
-        Console.WriteLine(Base16ToDecimal("6D44"));
-    }
 }
