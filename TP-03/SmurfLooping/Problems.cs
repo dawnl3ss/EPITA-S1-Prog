@@ -90,6 +90,16 @@ public class Problems
         return result;
     }
 
+    public static int AtoI(string s)
+    {
+        foreach (char chr in s)
+        {
+            if (chr == ' ' && chr == ',' && chr == '!' && chr == '?' && chr == ':' && chr == '.')
+                throw new ArgumentException("Parameter 's' could not contain special characters.");
+
+        }
+    }
+
     public static void Main()
     {
         Console.WriteLine(Tree('*', -1));
