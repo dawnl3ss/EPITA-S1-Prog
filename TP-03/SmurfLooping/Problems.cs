@@ -4,6 +4,8 @@ public class Problems
 {
     public static string Tree(char c, int n)
     {
+        if (n < 4)
+            throw new ArgumentException("Parameter 'n' must be upper than 3.");
         string tree = "";
         int len = n;
 
@@ -70,9 +72,26 @@ public class Problems
 
         return sanitizedStr;
     }
- 
+
+    public static string ItoA(int n)
+    {
+        if (n == 0)
+            return "0";
+        string result = "";
+        int nn = Int32.Abs(n);
+        
+        while (nn > 0) 
+        {
+            result = (Int32.Abs(nn) % 10) + result;
+            nn /= 10;
+        }
+        if (n < 0)
+            result = "-" + result;
+        return result;
+    }
+
     public static void Main()
     {
-        Console.WriteLine(KingOfTheHill("1 2 3 4 3 2 1"));
+        Console.WriteLine(Tree('*', -1));
     }
 }

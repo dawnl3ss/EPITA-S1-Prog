@@ -41,7 +41,7 @@ public class Travel
         string newStr = "";
         string revStr = "";
         
-        foreach (char chr in s)
+        foreach (char chr in s.ToLower())
         {
             if (chr != ' ' && chr != ',' && chr != '!' && chr != '?' && chr != ':' && chr != '.')
             {
