@@ -68,10 +68,78 @@ public class Letter
         }
     }
     
-    
-    public static void Main()
+
+    public static bool MirrorLetter(string filePath)
     {
-        MergeLetters("file1.txt", "");
+        string content = "";
+        
+        try
+        {
+            using (StreamReader sr = new StreamReader(filePath))
+            {
+                while (sr.Peek() >= 0)
+                {
+                    string line = sr.ReadLine();
+                    string revLine = "";
+                    
+                    foreach (char chr in line)
+                    {
+                        revLine = chr + revLine;
+                    }
+
+                    content = revLine + "\n" + content;
+                }
+            }
+
+            using (StreamWriter sw = new StreamWriter(filePath))
+            {
+                sw.Write(content);
+                return true;
+            }
+        }
+        catch
+        {
+            return false;
+        }
     }
-    
+
+
+    public static string FindHeaviestWord(string filePath)
+    {
+        int weight = 0;
+        string word = "";
+
+        try
+        {
+            using (StreamReader sr = new StreamReader(filePath))
+            {
+                
+                while (sr.Peek() >= 0)
+                {
+                    string line = sr.ReadLine();
+                    int total = 0;
+
+                    foreach (char chr in line)
+                    {
+                        total += chr;
+                    }
+
+                    if (total > weight)
+                    {
+                        weight = total;
+                        word = line;
+                    }
+                }
+            }
+        }
+        catch
+        {
+            throw new FileNotFoundException("File can not be opened");
+        }
+
+        if (word == "")
+            word = "File empty.";
+        
+        return word;
+    }
 }
