@@ -34,6 +34,9 @@ public class SmurfVillageParty
         
         try
         {
+            if (!File.Exists(filePath))
+                File.Create(filePath).Close();
+            
             using (StreamReader sr = new StreamReader(filePath))
             {
                 while (sr.Peek() >= 0)
