@@ -87,10 +87,13 @@ public class MayorElection
         }
     }
 
+    public static void SortVotes(string votesFilePath, string candidatesName, string sortedVotesFilePath)
+    {
+        
+    }
 
     public static void Main()
     {
-        EncryptDocumentWithCaesar("example.txt", -3); 
+        //Smthng.
     }
-    
 }
