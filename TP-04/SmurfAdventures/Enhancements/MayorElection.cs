@@ -30,9 +30,67 @@ public class MayorElection
         }
     }
 
+    public static void EncryptDocumentWithCaesar(string filePath, int key)
+    {
+        int modNum = 10;
+        int modLetter = 26;
+
+        int startNum = 48;
+        int startCapLetter = 65;
+        int startLetter = 97;
+
+        string content = "";
+
+        using (StreamReader sr = new StreamReader(filePath))
+        {
+            while (sr.Peek() >= 0)
+            {
+                string line = sr.ReadLine();
+
+                foreach (char chr in line)
+                {
+                    if (key > 0)
+                    {
+                        if ((int)chr >= startNum && (int)chr <= startNum + modNum - 1)
+                            content += (char)(startNum + (((int)chr + key - startNum) % modNum));
+
+                        else if ((int)chr >= startCapLetter && (int)chr <= startCapLetter + modLetter - 1)
+                            content += (char)(startCapLetter + (((int)chr + key - startCapLetter) % modLetter));
+
+                        else if ((int)chr >= startLetter && (int)chr <= startLetter + modLetter - 1)
+                            content += (char)(startLetter + (((int)chr + key - startLetter) % modLetter));
+                        else
+                            content += chr;
+                    }
+                    else if (key < 0)
+                    {
+                        if ((int)chr >= startNum && (int)chr <= startNum + modNum - 1)
+                            content += (char)(startNum + ((((int)(chr + key - startNum) % startNum) + modNum) % modNum));
+
+                        else if ((int)chr >= startCapLetter && (int)chr <= startCapLetter + modLetter - 1)
+                            content += (char)(startCapLetter + ((((int)(chr + key - startCapLetter) % startCapLetter) + modLetter) % modLetter));
+
+                        else if ((int)chr >= startLetter && (int)chr <= startLetter + modLetter - 1)
+                            content += (char)(startLetter + ((((int)(chr + key - startLetter) % startLetter) + modLetter) % modLetter));
+                        else
+                            content += chr;
+                    }
+                    else
+                        content += chr;
+                }
+            }
+        }
+
+        using (StreamWriter sw = new StreamWriter(filePath))
+        {
+            sw.Write(content);
+        }
+    }
+
+
     public static void Main()
     {
-        CreateReportFile("candidateDirectory", "report.txt");
+        EncryptDocumentWithCaesar("example.txt", -3); 
     }
     
 }
