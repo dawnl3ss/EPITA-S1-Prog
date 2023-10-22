@@ -17,7 +17,7 @@ public class Basics
                 return true;
             }
         }
-        catch (Exception e)
+        catch
         {
             return false;
         }
@@ -33,7 +33,7 @@ public class Basics
                 return true;
             }
         }
-        catch (Exception e)
+        catch
         {
             return false;
         }
@@ -54,7 +54,7 @@ public class Basics
                 }
             }
         }
-        catch (Exception e)
+        catch
         {
             throw new ArgumentException("File can not be read.");
         }

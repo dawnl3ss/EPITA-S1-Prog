@@ -1,6 +1,6 @@
 namespace SmurfAdventures.Fundamentals;
 
-public class Letter
+public class Letters
 {
     public static void SendLetter(string villagePath, string message, uint houseNumber)
     {
@@ -27,7 +27,7 @@ public class Letter
                 sw.Write(content);
             }
         }
-        catch (Exception e)
+        catch
         {
             throw new FileNotFoundException("File can not be opened.");
         }
@@ -79,7 +79,7 @@ public class Letter
             {
                 while (sr.Peek() >= 0)
                 {
-                    string line = sr.ReadLine();
+                    string? line = sr.ReadLine();
                     string revLine = "";
                     
                     foreach (char chr in line)
@@ -116,7 +116,7 @@ public class Letter
                 
                 while (sr.Peek() >= 0)
                 {
-                    string line = sr.ReadLine();
+                    string? line = sr.ReadLine();
                     int total = 0;
 
                     foreach (char chr in line)

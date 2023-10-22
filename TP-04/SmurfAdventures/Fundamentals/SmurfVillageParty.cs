@@ -17,7 +17,7 @@ public class SmurfVillageParty
                 }
             }
         }
-        catch (Exception e)
+        catch
         {
             throw new FileNotFoundException("File in 'filePath' not found.");
         }
@@ -54,7 +54,7 @@ public class SmurfVillageParty
 
             return true;
         }
-        catch (Exception e)
+        catch
         {
             return false;
         }
@@ -70,7 +70,7 @@ public class SmurfVillageParty
             {
                 while (sr.Peek() >= 0)
                 {
-                    string name = sr.ReadLine();
+                    string? name = sr.ReadLine();
                     
                     if (smurfName != name)
                         list += name + "\n";
@@ -82,7 +82,7 @@ public class SmurfVillageParty
                 sw.Write(list);
             }
         }
-        catch (Exception e)
+        catch
         {
             throw new FileNotFoundException("File can not be opened.");
         }
@@ -103,7 +103,7 @@ public class SmurfVillageParty
                 }
             }
         }
-        catch (Exception e)
+        catch
         {
             throw new FileNotFoundException("File can not be opened.");
         }
@@ -126,7 +126,7 @@ public class SmurfVillageParty
                 }
             }
         }
-        catch (Exception e)
+        catch
         {
             throw new FileNotFoundException("File can not be opened.");
         }
@@ -145,7 +145,7 @@ public class SmurfVillageParty
             {
                 while (sr.Peek() >= 0)
                 {
-                    string name = sr.ReadLine();
+                    string? name = sr.ReadLine();
 
                     if (guests.Contains(name))
                         removed = true;
@@ -159,7 +159,7 @@ public class SmurfVillageParty
                 sw.Write(guests);
             }
         }
-        catch (Exception e)
+        catch
         {
             throw new FileNotFoundException("File can not be opened.");
         }
@@ -187,7 +187,7 @@ public class SmurfVillageParty
             {
                 while (sr.Peek() >= 0)
                 {
-                    string name = sr.ReadLine();
+                    string ?name = sr.ReadLine();
 
                     if (valid.Contains(name))
                         guests += name + "\n";
@@ -201,7 +201,7 @@ public class SmurfVillageParty
                 sw.Write(guests);
             }
         }
-        catch (Exception e)
+        catch
         {
             throw new FileNotFoundException("File can not be opened.");
         }
