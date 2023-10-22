@@ -14,6 +14,7 @@ public class Basics
         {
             using (StreamReader sr = new StreamReader(filePath))
             {
+                sr.Close();
                 return true;
             }
         }
@@ -60,5 +61,10 @@ public class Basics
         }
 
         return content;
+    }
+
+    public static void Main()
+    {
+        Console.WriteLine(MyRead("example"));
     }
 }
