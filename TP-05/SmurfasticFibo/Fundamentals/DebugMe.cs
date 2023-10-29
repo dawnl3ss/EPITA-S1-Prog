@@ -46,30 +46,26 @@ public static class DebugMe
     {
         string res = "";
 
-        for (uint i = 0; i < height; i++)
+        for (ulong i = 0; i < height; i++)
         {
-            string s = "";
-            uint j = 0;
-            while (j < height - 1)
+            for (ulong j = 0; j < height - i - 1; j++)
             {
-                s += ' ';
-                j++;
+                res += ' ';
             }
 
-            res += s;
-            for (uint k = 0; k < i << 1; k++)
+            for (ulong k = 0; k < 2 * i + 1; k++)
             {
                 res += block;
             }
 
-            res += s + '\n';
+            for (ulong j = 0; j < height - i - 1; j++)
+            {
+                res += ' ';
+            }
+            
+            res += '\n';
         }
 
         return res;
-    }
-
-    public static void Main()
-    {
-        Console.WriteLine(Atoi("15000"));
     }
 }
