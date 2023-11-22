@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartySmurf", "PartySmurf\PartySmurf.csproj", "{F94B7850-3629-476E-BC6D-87892A5AE873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FDCB4116-DB0E-42CD-B229-A67E6B82C92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F94B7850-3629-476E-BC6D-87892A5AE873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94B7850-3629-476E-BC6D-87892A5AE873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94B7850-3629-476E-BC6D-87892A5AE873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94B7850-3629-476E-BC6D-87892A5AE873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCB4116-DB0E-42CD-B229-A67E6B82C92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCB4116-DB0E-42CD-B229-A67E6B82C92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCB4116-DB0E-42CD-B229-A67E6B82C92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCB4116-DB0E-42CD-B229-A67E6B82C92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
