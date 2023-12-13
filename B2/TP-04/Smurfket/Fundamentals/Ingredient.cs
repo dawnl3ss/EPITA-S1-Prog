@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace Smurfket.Fundamentals;
+﻿namespace Smurfket.Fundamentals;
 
 public class Ingredient
 {
