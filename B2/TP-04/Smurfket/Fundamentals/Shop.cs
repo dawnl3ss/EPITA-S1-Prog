@@ -73,9 +73,4 @@ public class Shop
     {
         
     }
-
-
-    public static void Main()
-    {
-    }
 }
